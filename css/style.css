@@ -593,21 +593,36 @@ button{
 .banner__inner{
     display: flex;
     justify-content: space-between;
+    gap: 42px;
+}
+.banner__item-1,
+.banner__item-2,
+.banner__item-3{
+    padding: 277px 0;
+    text-align: center;
+    align-items: center;
+    width: 612px;
+    height: 583px;
 }
 
-.banner__item{
-    position: relative;
+.banner__item-1 {
+    background-image: url(../images/banner-1.jpg);
 }
-.banner__btn{
-    display: inline-flex;
-    padding: 33px 83px 34px 83px;
+.banner__item-2 {
+    background-image: url(../images/banner-2.jpg);
+}
+.banner__item-3 {
+    background-image: url(../images/banner-3.jpg);
+}
+.banner__btn {
+    padding: 33px 83px;
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 500;
     border-radius: 20px;
     background: #FFF;
-    position: absolute;
-    align-items: center;
-    text-align: center;
 }
-
 
 
 
