@@ -623,8 +623,44 @@ button{
     border-radius: 20px;
     background: #FFF;
 }
-
-
+.news{
+    padding: 177px 0 185px;
+}
+.news__inner{
+    display: flex;
+    flex-direction: column;
+}
+.news__top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+.news__pretitle{
+    margin-bottom: 8px;
+}
+.news__title{
+    width: 702px;
+}
+.news__btn{
+    display: flex;
+    width: 220px;
+    height: 80px;
+    padding: 28px 40px 29px 40px;
+    border-radius: 16px;
+    border: 2px solid #274C5B;
+    justify-content: center;
+    align-items: center;
+    color: #274C5B;
+    background: #ffffff;
+    cursor: pointer;
+    margin-top: auto;
+}
+.news__btn-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 9px;
+}
 
 
 
