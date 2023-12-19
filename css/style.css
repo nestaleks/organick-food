@@ -661,8 +661,23 @@ button{
     font-weight: 700;
     margin-right: 9px;
 }
-
-
+.news__items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.news__item-1,
+.news__item-2{
+    width: 677px;
+    height: 524px;
+    border-radius: 30px;
+}
+.news__item-1{
+    background-image: url(../images/news-photo-1.jpg);
+}
+.news__item-2{
+    background-image: url(../images/news-photo-2.jpg);
+}
 
 
 
