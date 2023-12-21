@@ -118,6 +118,50 @@ button{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 700;
+    transition: .5s ease;
+}
+.menu__item a{
+    position: relative;
+    padding: 3px 7px;
+}
+.menu__item a:hover{
+    color: #ffffff;
+    background: #68A47F;
+    border-radius: 4px;
+}
+.menu__item a::before{
+    content: '';
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    width: 15px;
+    height: 15px;
+    border: 3px solid #274C5B;
+    border-width: 0 0 3px 3px;
+    transition: .5s ease;
+    opacity: 0;
+}
+.menu__item a:hover::before{
+    bottom: -8px;
+    left: -8px;
+    opacity: 1;
+}
+.menu__item a::after{
+    content: '';
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 15px;
+    height: 15px;
+    border: 3px solid #274C5B;
+    border-width: 3px 3px 0 0;
+    transition: .5s ease;
+    opacity: 0;
+}
+.menu__item a:hover::after{
+    top: -8px;
+    right: -8px;
+    opacity: 1;
 }
 .menu__item-pages{
     
@@ -218,6 +262,14 @@ button{
     font-weight: 700;
     margin-right: 10px;
 }
+.top__btn:hover{
+    color: #EFD372;
+    background: #274C5B;
+}
+.top__btn:active{
+    color: #274C5B;
+    background: #68A47F;
+}
 .promo{
     padding: 154px 190px;
 }
@@ -292,15 +344,23 @@ button{
     border-radius: 16px;
     justify-content: center;
     align-items: center;
+    color: #ffffff;
     background: #274C5B;
     cursor: pointer;
 }
 .about__btn-text{
     font-family: 'Roboto', sans-serif;
-    color: #ffffff;
     font-size: 20px;
     font-weight: 700;
     margin-right: 10px;
+}
+.about__btn:hover{
+    color: #274C5B;
+    background: #EFD372;
+}
+.about__btn:active{
+    color: #274C5B;
+    background: #68A47F;
 }
 .products{
     padding: 176px 0 200px;
@@ -380,15 +440,23 @@ button{
     border-radius: 16px;
     justify-content: center;
     align-items: center;
+    color: #ffffff;
     background: #274C5B;
     cursor: pointer;
 }
 .products__btn-text{
     font-family: 'Roboto', sans-serif;
-    color: #ffffff;
     font-size: 20px;
     font-weight: 700;
     margin-right: 10px;
+}
+.products__btn:hover{
+    color: #274C5B;
+    background: #EFD372;
+}
+.products__btn:active{
+    color: #274C5B;
+    background: #68A47F;
 }
 .review{
     background-image: url(../images/reviews-bg.jpg);
@@ -532,7 +600,7 @@ button{
     display: flex;
     width: 256px;
     height: 79px;
-    padding: 28px 39px;
+    padding: 28px 37px;
     border-radius: 16px;
     justify-content: center;
     align-items: center;
@@ -545,6 +613,16 @@ button{
     font-size: 20px;
     font-weight: 700;
     margin-right: 10px;
+}
+.offer__btn:hover{
+    color: #EFD372;
+    background: #274C5B;
+    border: 1px solid #EFD372;
+}
+.offer__btn:active{
+    color: #274C5B;
+    background: #68A47F;
+    border: none;
 }
 .offer__product{
     display: flex;
@@ -661,6 +739,14 @@ button{
     font-weight: 700;
     margin-right: 9px;
 }
+.news__btn:hover{
+    color: #EFD372;
+    background: #274C5B;
+}
+.news__btn:active{
+    color: #274C5B;
+    background: #68A47F;
+}
 .news__items{
     display: flex;
     justify-content: space-between;
@@ -741,15 +827,23 @@ button{
     width: 220px;
     padding: 28px 46px;
     border-radius: 16px;
+    color: #274C5B;
     background: #EFD372;
     cursor: pointer;
 }
 .news-box__btn-text{
     font-family: 'Roboto', sans-serif;
-    color: #274C5B;
     font-size: 20px;
     font-weight: 700;
     margin-right: 10px;
+}
+.news-box__btn:hover{
+    color: #EFD372;
+    background: #274C5B;
+}
+.news-box__btn:active{
+    color: #274C5B;
+    background: #68A47F;
 }
 .subscribe {
     margin-bottom: 70px;
@@ -800,6 +894,15 @@ button{
     font-size: 20px;
     font-weight: 700;
     margin-right: 10px;
+}
+.subscribe__btn:hover{
+    background: #ffffff;
+    color: #274C5B;
+    transition: all 0.5s ease;
+}
+.subscribe__btn:active{
+    background: #68A47F;
+    color: #ffffff;
 }
 .footer{
     padding: 50px 0 102px;
