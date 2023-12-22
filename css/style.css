@@ -177,9 +177,14 @@ button{
     position: relative;
 }
 .menu__btn span{
-    background-color: #525C60;
-    height: 2px;
+    background-color: #274C5B;
+    height: 6px;
+    border-radius: 3px;
     width: 100%;
+}
+.menu__btn span:nth-child(2){
+    width: 75%;
+    margin: 0 auto;
 }
 
 .header__icons{

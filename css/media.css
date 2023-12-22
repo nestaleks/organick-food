@@ -18,6 +18,14 @@
     }
 
 }
+@media(max-width: 1400px) {
+    .header__inner{
+        height: 120px;
+    }
+    .menu__list{
+        gap: 0 30px;
+    }
+}
 @media(max-width: 1280px) {
     .menu__list{
         display: none;
@@ -27,11 +35,28 @@
     }
 }
 @media(max-width: 1024px) {
+    .header__search{
+        width: 100px;
+        background-position: 130px;
+    }
 
 }
 @media(max-width: 768px) {
-
+    .header__inner{
+        height: 80px;
+    }
+    .menu__btn{
+        display: flex;
+    }
+    .header__icons{
+        display: none;
+    }
 }
+
+
+
+
+
 @media (max-width: 360px) {
 
 }
