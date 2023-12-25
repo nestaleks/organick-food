@@ -33,7 +33,7 @@
         top: 0;
         right: 0;
         left: 0;
-        width: 480px;
+        max-width: 480px;
         margin: 0 auto;
         background-color: #274C5B;
         color: #ffffff;
@@ -59,6 +59,10 @@
         padding-top: 60px;
         margin: 60px 30px;
         border-top: solid 2px #F7F2EA;
+    }
+    .header__mobile-search{
+        background-position: 300px;
+        width: 270px;
     }
     .menu__btn{
         display: flex;
@@ -104,8 +108,13 @@
 }
 
 
+@media (max-width: 480px) {
+    .header__mobile-search{
+        background-position: 240px;
+        width: 210px;
+    }
 
-
+}
 
 @media (max-width: 360px) {
 
