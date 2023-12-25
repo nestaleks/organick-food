@@ -16,6 +16,7 @@
 <body>
   <div class="wrapper">
     <header class="header">
+      <div class="menu--close"></div>
       <div class="header__container">
         <div class="header__inner">
           <a class="header__logo" href="#">
@@ -28,6 +29,11 @@
               <span></span>
             </button>
             <ul class="menu__list">
+              <li class="menu__close">
+                <button class="menu__close-btn">
+                  <img src="./images/close.svg" alt="close_menu">
+                </button>
+              </li>
               <li class="menu__item">
                 <a class="menu__link" href="#">Home</a>
               </li>
@@ -46,15 +52,20 @@
               <li class="menu__item">
                 <a class="menu__link" href="#">News</a>
               </li>
+              <li class="mobile-nav">
+                <div class="header__mobile-icons">
+                  <form>
+                    <input class="header__mobile-search" type="search">
+                  </form>
+                  <a class="header__mobile-icon-cart" href="#">Cart (0)</a>
+                </div>
+              </li>
             </ul>
           </nav>
           <div class="header__icons">
             <form>
               <input class="header__search" type="search">
             </form>
-            <!-- <a class="header__icon-search" href="#">
-              <img class="search-img" src="./images/search.svg" alt="search">
-            </a> -->
             <a class="header__icon-cart" href="#">Cart (0)</a>
           </div>
         </div>
