@@ -420,8 +420,11 @@ button{
     margin-bottom: 40px;
 }
 .products__items{
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    justify-content: center;
     gap: 20px;
     margin-bottom: 122px;
 }
