@@ -344,6 +344,13 @@ button{
 }
 .about__inner{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 25px;
+}
+.about__img{
+    text-align: center;
+    margin: 0 auto;
 }
 .about__title{
     margin-bottom: 14px;
@@ -354,18 +361,25 @@ button{
     margin-bottom: 46px;
 }
 .about__content{
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    gap: 30px 0;
+}
+.about__content-items{
+    display: flex;
+    flex-direction: column;
     gap: 30px 0;
 }
 .about__content-item{
     display: flex;
+    flex-direction: row;
     gap: 0 19px;
 }
 .about__content-title{
     margin-bottom: 7px;
 }
 .about__content-text{
-    width: 444px;
+    max-width: 444px;
     line-height: 165.4%; /* 29.772px */
 }
 .about__btn{
