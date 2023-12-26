@@ -262,8 +262,8 @@ button{
     background-image: url(../images/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
-    height: 898px;
+    background-position: right center;
+    min-height: 898px;
 }
 .top__content{
     padding-top: 247px;
