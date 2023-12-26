@@ -303,28 +303,27 @@ button{
     background: #68A47F;
 }
 .promo{
-    padding: 154px 190px;
+    padding: 154px 0;
 }
 .promo__inner{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     gap: 0 36px;
 }
 .promo-1{
     background-image: url(../images/promo-1.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    width: 682px;
-    height: 367px;
-    border-radius: 30px;
 }
 .promo-2{
     background-image: url(../images/promo-2.jpg);
+}
+.promo-1,
+.promo-2{
     background-repeat: no-repeat;
     background-position: top center;
-    width: 682px;
-    height: 367px;
+    background-size: cover;
+    min-width: 682px;
+    min-height: 367px;
     border-radius: 30px;
 }
 .promo-1__pretitle,

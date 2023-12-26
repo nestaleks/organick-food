@@ -19,6 +19,14 @@
     .top{
         background-position: top center;
     }
+    .promo{
+        padding: 140px 0;
+    }
+    .promo-1,
+    .promo-2{
+        min-width: 600px;
+        min-height: 323px;
+    }
 }
 @media(max-width: 1400px) {
     .header__inner{
@@ -31,7 +39,9 @@
         width: 170px;
         background-position: 195px;
     }
-    
+    .promo{
+        padding: 120px 0;
+    }
 }
 @media(max-width: 1280px) {
     
@@ -78,6 +88,25 @@
     .menu__close{
     display: block;
     }
+    .promo{
+        padding: 80px 0;
+    }
+    .promo-1,
+    .promo-2{
+        min-width: 400px;
+        min-height: 215px;
+    }
+    .promo-1__pretitle,
+    .promo-2__pretitle{
+        margin: 40px 0 20px 10px;
+    }
+    .promo-1__title,
+    .promo-2__title{
+        margin-left: 10px;
+        width: 210px;
+        font-size: 32px;
+        line-height: 35px;
+    }
     .footer__contacts{
         padding-right: 25px;
     }
@@ -111,6 +140,24 @@
 @media(max-width: 900px) {
     .footer__content-text{
         width: 290px;
+    }
+    .promo{
+        padding: 75px 0;
+    }
+    .promo-1,
+    .promo-2{
+        min-width: 300px;
+        min-height: 161px;
+    }
+    .promo-1__pretitle,
+    .promo-2__pretitle{
+        margin: 25px 0 20px 10px;
+    }
+    .promo-1__title,
+    .promo-2__title{
+        width: 180px;
+        font-size: 23px;
+        line-height: 30px;
     }
 }
 @media(max-width: 768px) {
@@ -166,7 +213,26 @@
         border-right: none;
     }
 }
-
+@media (max-width: 680px) {
+    .promo{
+        padding: 50px 0;
+    }
+    .promo-1,
+    .promo-2{
+        min-width: 200px;
+        min-height: 108px;
+    }
+    .promo-1__pretitle,
+    .promo-2__pretitle{
+        margin: 15px 0 10px 10px;
+    }
+    .promo-1__title,
+    .promo-2__title{
+        width: 106px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
 
 @media (max-width: 480px) {
     .header__mobile-search{
@@ -180,6 +246,10 @@
         font-size: 40px;
         line-height: 59px;
         width: 290px;
+    }
+    .promo__inner{
+        flex-direction: column;
+        gap: 20px 0;
     }
 }
 
