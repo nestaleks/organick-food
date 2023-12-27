@@ -691,11 +691,10 @@ button{
     background-repeat: no-repeat;
     background-size: 50% 100%;
     background-position: top left;
-    height: 931px;
 }
 .eco__content {
-    padding-top: 182px;
-    padding-left: 781px;
+    padding: 182px 0 181px 781px;
+
 }
 .eco__content-pretitle {
     margin-bottom: 8px;
