@@ -420,21 +420,21 @@ button{
     margin-bottom: 40px;
 }
 .products__items{
-    /* display: flex;
-    flex-wrap: wrap; */
-    display: grid;
-    grid-template-columns: repeat(4, 2fr);
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
     justify-content: center;
     gap: 20px;
     margin-bottom: 122px;
 }
 .products__item{
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 29px 30px 17px 30px;
-    width: 335px;
-    height: 483px;
+    max-width: 335px;
+    max-height: 483px;
     border-radius: 30px;
     background: #F9F8F8;
     overflow: hidden;
