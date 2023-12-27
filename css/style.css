@@ -681,7 +681,10 @@ button{
 }
 .offer__product{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    gap: 20px;
 }
 .eco {
     background-image: url(../images/eco-bg.jpg);

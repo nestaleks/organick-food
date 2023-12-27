@@ -22,7 +22,8 @@
     .promo,
     .about,
     .products,
-    .review{
+    .review,
+    .offer{
         padding: 140px 0;
     }
     .promo-1,
@@ -53,7 +54,8 @@
     .promo,
     .about,
     .products,
-    .review{
+    .review,
+    .offer{
         padding: 120px 0;
     }
 }
@@ -105,7 +107,8 @@
     .promo,
     .about,
     .products,
-    .review{
+    .review,
+    .offer{
         padding: 80px 0;
     }
     .promo-1,
@@ -145,6 +148,9 @@
     .review__title{
         font-size: 40px;
         margin-bottom: 35px;
+    }
+    .offer__title{
+        font-size: 40px;
     }
     .footer__contacts{
         padding-right: 25px;
@@ -206,6 +212,9 @@
     .review__stat{
         padding-top: 50px;
     }
+    .offer__title{
+        font-size: 32px;
+    }
 }
 @media(max-width: 900px) {
     .footer__content-text{
@@ -214,7 +223,8 @@
     .promo,
     .about,
     .products,
-    .review{
+    .review,
+    .offer{
         padding: 75px 0;
     }
     .promo-1,
@@ -273,6 +283,9 @@
     }
     .review__stat-text {
         font-size: 16px;
+    }
+    .offer__title{
+        font-size: 26px;
     }
 }
 @media(max-width: 768px) {
@@ -387,7 +400,8 @@
     .promo,
     .about,
     .products,
-    .review{
+    .review,
+    .offer{
         padding: 50px 0;
     }
     .promo-1,
@@ -407,6 +421,15 @@
     }
     .products__item{
         max-width: 46%;
+    }
+    .offer__title{
+        margin-bottom: 25px;
+        line-height: normal;
+    }
+    .offer__top{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
     }
 
 }
@@ -436,6 +459,13 @@
         font-size: 40px;
         line-height: 59px;
         width: 290px;
+    }
+    .promo,
+    .about,
+    .products,
+    .review,
+    .offer{
+        padding: 40px 0;
     }
     .promo__inner{
         flex-direction: column;
@@ -501,6 +531,9 @@
     }
     .products__item-stars{
         max-width: 35px;
+    }
+    .offer__title{
+        font-size: 24px;
     }
 }
 @media(max-width: 320px) {
