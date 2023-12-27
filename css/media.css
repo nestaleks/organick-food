@@ -21,7 +21,8 @@
     }
     .promo,
     .about,
-    .products{
+    .products,
+    .review{
         padding: 140px 0;
     }
     .promo-1,
@@ -51,7 +52,8 @@
     }
     .promo,
     .about,
-    .products{
+    .products,
+    .review{
         padding: 120px 0;
     }
 }
@@ -102,7 +104,8 @@
     }
     .promo,
     .about,
-    .products{
+    .products,
+    .review{
         padding: 80px 0;
     }
     .promo-1,
@@ -133,6 +136,15 @@
     }
     .products__item{
         max-width: 30%;
+    }
+    .review{
+        background-image: none;
+        background-color: #F9F8F8;
+        min-height: auto;
+    }
+    .review__title{
+        font-size: 40px;
+        margin-bottom: 35px;
     }
     .footer__contacts{
         padding-right: 25px;
@@ -184,6 +196,16 @@
     .products__item-price span{
         font-size: 12px;
     }
+    .review__title{
+        font-size: 32px;
+        margin-bottom: 25px;
+    }
+    .review__slides{
+        margin-bottom: 50px;
+    }
+    .review__stat{
+        padding-top: 50px;
+    }
 }
 @media(max-width: 900px) {
     .footer__content-text{
@@ -191,7 +213,8 @@
     }
     .promo,
     .about,
-    .products{
+    .products,
+    .review{
         padding: 75px 0;
     }
     .promo-1,
@@ -233,6 +256,23 @@
     }
     .products__item{
         padding: 15px 15px 10px 15px;
+    }
+    .review__title{
+        font-size: 26px;
+        line-height: normal;
+        margin-bottom: 20px;
+    }
+    .review__stat-item {
+        width: 150px;
+        height: 150px;
+    }
+    .review__stat-title {
+        padding-top: 35px;
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
+    .review__stat-text {
+        font-size: 16px;
     }
 }
 @media(max-width: 768px) {
@@ -327,12 +367,24 @@
         text-align: center;
         border-right: none;
     }
-
+    .review__stat-item {
+        width: 120px;
+        height: 120px;
+    }
+    .review__stat-title {
+        padding-top: 30px;
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+    .review__stat-text {
+        font-size: 12px;
+    }
 }
 @media (max-width: 680px) {
     .promo,
     .about,
-    .products{
+    .products,
+    .review{
         padding: 50px 0;
     }
     .promo-1,
@@ -353,8 +405,19 @@
     .products__item{
         max-width: 46%;
     }
-}
 
+}
+@media (max-width: 570px) {
+    .review__stat{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px 0;
+    }
+    .review__stat-item{
+        margin: 0 auto;
+        
+    }
+}
 @media (max-width: 480px) {
     .header__mobile-search{
         background-position: 240px;

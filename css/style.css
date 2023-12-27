@@ -516,6 +516,9 @@ button{
 }
 .review__inner{
     text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1108px;
 }
 .review__pretitle{
     margin-bottom: 8px;
@@ -533,6 +536,7 @@ button{
     flex-direction: column;
     margin: 0 auto;
     text-align: center;
+    justify-content: center;
     max-width: 780px;
 }
 .review__img{
@@ -609,6 +613,8 @@ button{
 .review__stat-item {
     text-align: center;
     background-image: url(../images/stat-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 211px;
     height: 211px;
 }
