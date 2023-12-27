@@ -367,6 +367,9 @@
         text-align: center;
         border-right: none;
     }
+    .review__item-stars{
+        margin: 0 auto;
+    }
     .review__stat-item {
         width: 120px;
         height: 120px;
@@ -408,6 +411,9 @@
 
 }
 @media (max-width: 570px) {
+    .review__text{
+        font-size: 16px;
+    }
     .review__stat{
         display: grid;
         grid-template-columns: 1fr 1fr;

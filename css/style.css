@@ -537,6 +537,7 @@ button{
     margin: 0 auto;
     text-align: center;
     justify-content: center;
+    align-items: center;
     max-width: 780px;
 }
 .review__img{
@@ -548,13 +549,13 @@ button{
     border-radius: 62px;
     margin: 0 auto;
 }
-.products__item-stars img{
+.review__item-stars img{
     width: 122px;
     margin-bottom: 25px;
     margin: 0 auto;
 }
 .review__text {
-    width: 780px;
+    max-width: 780px;
     line-height: 165.4%; /* 29.772px */
     text-align: center;
     margin: 0 auto 20px;
