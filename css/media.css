@@ -34,6 +34,9 @@
     .about__text{
         max-width: 500px;
     }
+    .eco__content {
+        padding: 140px 0 140px 781px;
+    }
 }
 @media(max-width: 1440px) {
     .products__item{
@@ -57,6 +60,9 @@
     .review,
     .offer{
         padding: 120px 0;
+    }
+    .eco__content {
+        padding: 120px 0 120px 700px;
     }
 }
 @media(max-width: 1280px) {
@@ -164,6 +170,13 @@
     .footer__pages{
         padding-left: 25px;
     }
+    .eco__content {
+        padding: 50px 0 50px 640px;
+    }
+    .eco__content-title{
+        font-size: 40px;
+        line-height: normal;
+    }
 }
 @media(max-width: 1024px) {
     .header__search{
@@ -213,6 +226,12 @@
         padding-top: 50px;
     }
     .offer__title{
+        font-size: 32px;
+    }
+    .eco__content {
+        padding: 30px 0 30px 500px;
+    }
+    .eco__content-title{
         font-size: 32px;
     }
 }
@@ -286,6 +305,26 @@
     }
     .offer__title{
         font-size: 26px;
+    }
+    .eco{
+        background-image: none;
+    }
+    .eco__content {
+        padding: 30px 0;
+    }
+    .eco__content-pretitle,
+    .eco__content-title {
+        text-align: center;
+    }
+    .eco__content-title{
+        font-size: 26px;
+    }
+    .content__item-title {
+        font-size: 20px;
+    }
+    .content__item-text {
+        font-size: 16px;
+        text-align: justify;
     }
 }
 @media(max-width: 768px) {
