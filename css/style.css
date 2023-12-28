@@ -811,8 +811,7 @@ button{
 }
 .news__items{
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .news__item-1,
 .news__item-2{
@@ -878,11 +877,13 @@ button{
     position: relative;
     margin-right: 8px;
 }
-.news__title{
+.news__box-title{
+    margin-top: auto;
 }
 .news__text{
     line-height: 165.4%; /* 29.772px */
     margin-bottom: 15px;
+    text-align: justify;
 }
 .news-box__btn{
     display: flex;

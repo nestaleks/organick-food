@@ -24,7 +24,8 @@
     .products,
     .review,
     .offer,
-    .banner{
+    .banner,
+    .news{
         padding: 140px 0;
     }
     .promo-1,
@@ -60,11 +61,26 @@
     .products,
     .review,
     .offer,
-    .banner{
+    .banner,
+    .news{
         padding: 120px 0;
     }
     .eco__content {
         padding: 120px 0 120px 700px;
+    }
+    .news__item-1,
+    .news__item-2{
+        width: 550px;
+        height: 426px;
+    }
+    .news__date{
+        margin-bottom: 90px;
+    }
+    .news__box{
+        width: 490px;
+        height: 275px;
+        border-radius: 30px;
+        padding: 30px 30px 30px;
     }
 }
 @media(max-width: 1280px) {
@@ -116,7 +132,8 @@
     .about,
     .products,
     .review,
-    .offer{
+    .offer,
+    .news{
         padding: 80px 0;
     }
     .promo-1,
@@ -188,6 +205,34 @@
     .banner__btn {
         padding: 20px 55px;
     }
+    .news__item-content{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .news__item-1,
+    .news__item-2{
+        width: 425px;
+        height: 329px;
+    }
+    .news__title{
+        font-size: 40px;
+        line-height: normal;
+    }
+    .news__date{
+        margin-bottom: 60px;
+    }
+    .news__box{
+        width: 385px;
+        height: 305px;
+        border-radius: 30px;
+        padding: 30px;
+    }
+    .news__text{
+        margin-top: auto;
+    }
+    .news-box__btn{
+        margin-top: auto;
+    }
 }
 @media(max-width: 1024px) {
     .header__search{
@@ -245,6 +290,11 @@
     .eco__content-title{
         font-size: 32px;
     }
+    .news__title{
+        font-size: 32px;
+        max-width: 555px;
+    }
+    .
 }
 @media(max-width: 900px) {
     .footer__content-text{
@@ -255,7 +305,8 @@
     .products,
     .review,
     .offer,
-    .banner{
+    .banner,
+    .news{
         padding: 75px 0;
     }
     .promo-1,
@@ -341,6 +392,44 @@
     .banner__btn {
         font-size: 18px;
         padding: 20px 55px;
+    }
+    .news__item-1,
+    .news__item-2{
+        width: 360px;
+        height: 280px;
+    }
+    .news__date{
+        width: 50px;
+        height: 50px;
+        margin-bottom: 40px;
+    }
+    .news__day{
+        font-size: 22px;
+        padding-top: 5px;
+    }
+    .news__month{
+        font-size: 16px;
+    }
+    .news__box{
+        width: 320px;
+        height: 280px;
+        border-radius: 20px;
+        padding: 20px;
+    }
+    .news__author{
+        font-size: 14px;
+    }
+    .news__box-title{
+        font-size: 18px;
+        line-height: normal;
+    }
+    .news__text{
+        font-size: 16px;
+        line-height: normal;
+        margin-top: auto;
+    }
+    .news-box__btn{
+        margin-top: auto;
     }
 }
 @media(max-width: 768px) {
@@ -460,6 +549,49 @@
         font-size: 16px;
         padding: 15px 35px;
     }
+    .news__top{
+        flex-direction: column;
+        text-align: center;
+    }
+    .news__title{
+        max-width: 80%;
+        margin: 0 auto 20px;
+    }
+    .news__btn{
+        margin: 0 auto;
+    }
+    .news__items{
+        gap: 0 10px;
+    }
+    .news__item-content{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .news__item-1,
+    .news__item-2{
+        width: 320px;
+        height: 280px;
+    }
+    .news__date{
+        margin-bottom: 45px;
+    }
+    .news__box{
+        width: 300px;
+        height: 187px;
+        padding: 10px;
+    }
+    .news__box-title{
+        margin-bottom: 5px;
+    }
+    .news-box__btn{
+        margin-left: auto;
+        width: 175px;
+        padding: 12px 24px;
+    }
+    .news-box__btn-text{
+        font-size: 20px;
+        margin-right: 10px;
+    }
 }
 @media (max-width: 680px) {
     .promo,
@@ -467,7 +599,8 @@
     .products,
     .review,
     .offer,
-    .banner{
+    .banner,
+    .news{
         padding: 50px 0;
     }
     .promo-1,
@@ -508,7 +641,19 @@
         width: 100%;
         height: 120px;
         background-position: bottom 50% center;
-}
+    }
+    .news__items{
+        flex-wrap: wrap;
+        gap: 55px 0;
+    }
+    .news__item-1,
+    .news__item-2{
+        width: 100%;
+        height: 100%;
+    }
+    .news__box{
+        margin-left: auto;
+    }
 }
 @media (max-width: 570px) {
     .review__text{
@@ -542,7 +687,8 @@
     .products,
     .review,
     .offer,
-    .banner{
+    .banner,
+    .news{
         padding: 40px 0;
     }
     .promo__inner{
@@ -612,6 +758,25 @@
     }
     .offer__title{
         font-size: 24px;
+    }
+    .news__box{
+        width: 240px;
+        height: 175px;
+        padding: 10px;
+    }
+    .news__box-title{
+        font-size: 16px;
+    }
+    .news__text{
+        font-size: 14px;
+    }
+    .news-box__btn{
+        width: 140px;
+        padding: 8px 15px;
+        border-radius: 10px;
+    }
+    .news-box__btn-text{
+        font-size: 16px;
     }
 }
 @media(max-width: 320px) {
