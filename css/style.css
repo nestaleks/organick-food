@@ -741,12 +741,18 @@ button{
 
 .banner__item-1 {
     background-image: url(../images/banner-1.jpg);
+    background-size: cover;
+    background-position: top center;
 }
 .banner__item-2 {
     background-image: url(../images/banner-2.jpg);
+    background-size: cover;
+    background-position: top center;
 }
 .banner__item-3 {
     background-image: url(../images/banner-3.jpg);
+    background-size: cover;
+    background-position: top center;
 }
 .banner__btn {
     padding: 33px 83px;

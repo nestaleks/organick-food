@@ -23,7 +23,8 @@
     .about,
     .products,
     .review,
-    .offer{
+    .offer,
+    .banner{
         padding: 140px 0;
     }
     .promo-1,
@@ -58,7 +59,8 @@
     .about,
     .products,
     .review,
-    .offer{
+    .offer,
+    .banner{
         padding: 120px 0;
     }
     .eco__content {
@@ -177,6 +179,15 @@
         font-size: 40px;
         line-height: normal;
     }
+    .banner__item-1,
+    .banner__item-2,
+    .banner__item-3{
+        padding: 150px 0;
+        height: 326px;
+    }
+    .banner__btn {
+        padding: 20px 55px;
+    }
 }
 @media(max-width: 1024px) {
     .header__search{
@@ -243,7 +254,8 @@
     .about,
     .products,
     .review,
-    .offer{
+    .offer,
+    .banner{
         padding: 75px 0;
     }
     .promo-1,
@@ -325,6 +337,10 @@
     .content__item-text {
         font-size: 16px;
         text-align: justify;
+    }
+    .banner__btn {
+        font-size: 18px;
+        padding: 20px 55px;
     }
 }
 @media(max-width: 768px) {
@@ -434,13 +450,24 @@
     .review__stat-text {
         font-size: 12px;
     }
+    .banner__item-1,
+    .banner__item-2,
+    .banner__item-3{
+        padding: 100px 0;
+        height: 220px;
+    }
+    .banner__btn {
+        font-size: 16px;
+        padding: 15px 35px;
+    }
 }
 @media (max-width: 680px) {
     .promo,
     .about,
     .products,
     .review,
-    .offer{
+    .offer,
+    .banner{
         padding: 50px 0;
     }
     .promo-1,
@@ -470,7 +497,18 @@
         text-align: center;
         align-items: center;
     }
-
+    .banner__inner{
+        flex-direction: column;
+        gap: 20px 0;
+    }
+    .banner__item-1,
+    .banner__item-2,
+    .banner__item-3{
+        padding: 60px 0;
+        width: 100%;
+        height: 120px;
+        background-position: bottom 50% center;
+}
 }
 @media (max-width: 570px) {
     .review__text{
@@ -503,7 +541,8 @@
     .about,
     .products,
     .review,
-    .offer{
+    .offer,
+    .banner{
         padding: 40px 0;
     }
     .promo__inner{
