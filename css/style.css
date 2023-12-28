@@ -910,11 +910,11 @@ button{
 }
 .subscribe {
     margin-bottom: 70px;
-    
 }
 .subscribe__inner {
     padding: 0 71px;
     background-image: url(../images/subscribe-bg.jpg);
+    background-position: top center;
     height: 323px;
     border-radius: 30px;
     display: flex;
@@ -933,6 +933,7 @@ button{
     width: 349px;
     border-radius: 16px;
     border: none;
+    font-size: 18px;
 }
 .subscribe-email::placeholder {
     padding: 28px 23px 31px;
@@ -956,7 +957,7 @@ button{
     color: #ffffff;
     font-size: 20px;
     font-weight: 700;
-    margin-right: 10px;
+    margin-left: 10px;
 }
 .subscribe__btn:hover{
     background: #ffffff;
