@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="./images/favicon.ico" type="image/svg+xml">
+    <title>Organick - 100% Natural Food</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/slick.css"/>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- ИМПОРТ ХЕДЕРА -->
+        <!-- @import "header.html" -->
+
+        <!-- ОСНОВНАЯ ЧАСТЬ СТРАНИЦЫ -->
+        <main class="main">
+            <!-- ИМПОРТ РАЗДЕЛА SUBSCRIBE -->
+            <!-- @import "subscribe.html" -->
+        </main>
+        <!-- ИМПОРТ ФУТЕРА -->
+        <!-- @import "footer.html" -->
+    </div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
