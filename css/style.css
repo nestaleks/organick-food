@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
@@ -1266,3 +1267,15 @@ button {
 .footer__pages-item {
   line-height: 272.9%;
   /* 49.122px */ }
+
+/* страница ABOUT US */
+.page-about-top {
+  background-image: url(../../images/page-about-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  min-height: 450px; }
+
+.page-about-top-title {
+  text-align: center;
+  vertical-align: middle; }

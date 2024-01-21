@@ -21,6 +21,17 @@
 
         <!-- ОСНОВНАЯ ЧАСТЬ СТРАНИЦЫ -->
         <main class="main">
+            <section class="page-about-top">
+                <div class="container">
+                    <h1 class="page-about-top-title">About Us</h1>
+                </div>
+            </section>
+
+
+
+
+
+
             <!-- ИМПОРТ РАЗДЕЛА SUBSCRIBE -->
             <!-- @import "subscribe.html" -->
         </main>
