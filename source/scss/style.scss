@@ -1043,13 +1043,13 @@ button{
 /* страница ABOUT US */
 ///////////////////////
 .page-about-top{
-  background-image: url(../../images/page-about-bg.jpg);
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  background-size: cover;
-  min-height: 450px;
-}
-.page-about-top-title{
+    background-image: url(../../images/page-about-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    min-height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    vertical-align: middle;
 }

@@ -1274,8 +1274,14 @@ button {
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
-  min-height: 450px; }
-
-.page-about-top-title {
-  text-align: center;
-  vertical-align: middle; }
+  min-height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center; }

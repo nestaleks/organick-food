@@ -25,7 +25,7 @@
               <div class="container">
                 <div class="top__content">
                   <p class="top__pretitle pretitle">100% Natural Food</p>
-                  <h1 class="top__title">Choose the best healthier way of life</h1>
+                  <h1 class="top__title h1-title">Choose the best healthier way of life</h1>
                   <a class="top__btn" href="#">
                     <p class="top__btn-text">Explore Now</p>
                     <img src="./images/arrow.svg" alt="arrow">
