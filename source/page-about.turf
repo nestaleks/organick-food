@@ -31,7 +31,27 @@
                     <div class="page-about__inner">
                         <img class="page-about__about-img" src="./images/about-page_about.png" alt="">
                         <div class="page-about__about-content">
-                            <p class="page-about__pretitle pretitle">About Us</p>
+                            <p class="page-about__about-pretitle pretitle">About Us</p>
+                            <h2 class="page-about__about-content-title h2-title">We do Creative 
+                                Things for Success</h2>
+                            <p class="page-about__about-content-text">Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+                            <p class="page-about__about-content-text">Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+                            <div class="page-about__about-content-box">
+                                <div class="page-about__about-content-item">
+                                    <img class="about-content-item-img" src="./images/about-content-box-1.svg" alt="">
+                                    <p class="about-content-item-text">Modern Agriculture
+                                        Equipment
+                                        </p>
+                                </div>
+                                <div class="page-about__about-content-item">
+                                    <img class="about-content-item-img" src="./images/about-content-box-2.svg" alt="">
+                                    <p class="about-content-item-text">No growth hormones are used</p>
+                                </div>
+                            </div>
+                            <a class="page-about__about-btn" href="#">
+                                <p class="page-about__about-btn-text">Explore More</p>
+                                <img src="./images/arrow.svg" alt="arrow">
+                              </a>
                         </div>
                     </div>
                 </div>

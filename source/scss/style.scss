@@ -1048,3 +1048,77 @@ button{
     align-items: center;
     text-align: center;
 }
+.page-about__about{
+    padding: 175px 0 125px;
+}
+.page-about__inner{
+    display: flex;
+    justify-content: space-between;
+    gap: 0 90px;
+}
+.page-about__about-img{
+    max-width: 775px;
+    margin-left: -145px;
+}
+.page-about__about-content{
+    max-width: 671px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.page-about__about-pretitle{
+    margin-bottom: 8px;
+}
+.page-about__about-content-title{
+    max-width: 450px;
+    margin-bottom: 14px;
+}
+.page-about__about-content-text +
+.page-about__about-content-text{
+    margin-top: 30px;
+}
+.page-about__about-content-box{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.page-about__about-content-item{
+    margin-bottom: 58px;
+    display: flex;
+    flex-direction: row;
+}
+.about-content-item-text{
+    width: 226px;
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 15px;
+}
+.page-about__about-btn{
+    display: flex;
+    width: 220px;
+    padding: 28px 35px;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background: #274C5B;
+    cursor: pointer;
+}
+.page-about__about-btn-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.page-about__about-btn:hover{
+    color: #274C5B;
+    background: #EFD372;
+}
+.apage-about__about-btn:active{
+    color: #274C5B;
+    background: #68A47F;
+}
