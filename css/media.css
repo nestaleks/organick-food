@@ -262,8 +262,20 @@
         font-size: 40px;
         line-height: normal;
     }
+    .page-about__about-content-box{
+        justify-content: space-between;
+    }
     .about-content-item-text{
-        font-size: 20px;
+        font-size: 18px;
+    }
+    .page-about__about-img{
+        max-width: 450px;
+    }
+    .about-content-item-text{
+        width: 145px;
+    }
+    .page-about__inner{
+        gap: 0 20px;
     }
 }
 @media(max-width: 1024px) {
