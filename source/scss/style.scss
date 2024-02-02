@@ -1040,7 +1040,7 @@ button{
 .page-about__top{
     background-image: url(../images/page-about-bg.jpg);
     background-repeat: no-repeat;
-    background-position: bottom center;
+    background-position-x: 17%;
     background-size: cover;
     min-height: 450px;
     display: flex;
@@ -1059,6 +1059,10 @@ button{
 .page-about__about-img{
     max-width: 775px;
     margin-left: -145px;
+    object-fit: contain;
+}
+.page-about__about-img img{
+    
 }
 .page-about__about-content{
     max-width: 671px;
@@ -1087,12 +1091,15 @@ button{
     justify-content: space-between;
 }
 .page-about__about-content-item{
-    margin-bottom: 58px;
     display: flex;
     flex-direction: row;
 }
+.about-content-item-img{
+    width: 46px;
+    height: 46px;
+}
 .about-content-item-text{
-    width: 226px;
+    max-width: 226px;
     color: #274C5B;
     font-family: Roboto;
     font-size: 25px;
@@ -1110,6 +1117,7 @@ button{
     color: #ffffff;
     background: #274C5B;
     cursor: pointer;
+    margin-top: 58px;
 }
 .page-about__about-btn-text{
     font-family: 'Roboto', sans-serif;

@@ -1272,7 +1272,7 @@ button {
 .page-about__top {
   background-image: url(../images/page-about-bg.jpg);
   background-repeat: no-repeat;
-  background-position: bottom center;
+  background-position-x: 17%;
   background-size: cover;
   min-height: 450px;
   display: -webkit-box;
@@ -1300,7 +1300,9 @@ button {
 
 .page-about__about-img {
   max-width: 775px;
-  margin-left: -145px; }
+  margin-left: -145px;
+  -o-object-fit: contain;
+     object-fit: contain; }
 
 .page-about__about-content {
   max-width: 671px;
@@ -1343,7 +1345,6 @@ button {
           justify-content: space-between; }
 
 .page-about__about-content-item {
-  margin-bottom: 58px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1352,8 +1353,12 @@ button {
       -ms-flex-direction: row;
           flex-direction: row; }
 
+.about-content-item-img {
+  width: 46px;
+  height: 46px; }
+
 .about-content-item-text {
-  width: 226px;
+  max-width: 226px;
   color: #274C5B;
   font-family: Roboto;
   font-size: 25px;
@@ -1376,7 +1381,8 @@ button {
           align-items: center;
   color: #ffffff;
   background: #274C5B;
-  cursor: pointer; }
+  cursor: pointer;
+  margin-top: 58px; }
 
 .page-about__about-btn-text {
   font-family: 'Roboto', sans-serif;

@@ -25,7 +25,8 @@
     .review,
     .offer,
     .banner,
-    .news{
+    .news,
+    .page-about__about{
         padding: 140px 0;
     }
     .promo-1,
@@ -66,7 +67,8 @@
     .review,
     .offer,
     .banner,
-    .news{
+    .news,
+    .page-about__about{
         padding: 120px 0;
     }
     .eco__content {
@@ -152,7 +154,8 @@
     .products,
     .review,
     .offer,
-    .news{
+    .news,
+    .page-about__about{
         padding: 80px 0;
     }
     .promo-1,
@@ -263,7 +266,7 @@
         line-height: normal;
     }
     .page-about__about-content-box{
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
     .about-content-item-text{
         font-size: 18px;
@@ -272,7 +275,7 @@
         max-width: 450px;
     }
     .about-content-item-text{
-        width: 145px;
+        max-width: 145px;
     }
     .page-about__inner{
         gap: 0 20px;
@@ -298,7 +301,7 @@
     .top__title,
     .h1-title{
         line-height: 59px;
-        width: 430px;
+        max-width: 430px;
     }
     .about__img img{
         width: 380px;
@@ -338,6 +341,10 @@
     .subscribe-email {
         width: 275px;
     }
+    .page-about__about-content-title{
+        max-width: 330px;
+        line-height: normal;
+    }
 }
 @media(max-width: 900px) {
     .h2-title{
@@ -358,7 +365,8 @@
     .review,
     .offer,
     .banner,
-    .news{
+    .news,
+    .page-about__about{
         padding: 75px 0;
     }
     .promo-1,
@@ -479,6 +487,16 @@
     }
     .subscribe-email {
         width: 250px;
+    }
+    .about-content-item-text {
+        max-width: 110px;
+    }
+    .page-about__about-img {
+        max-width: 340px;
+    }
+    .page-about__about-content-text{
+        font-size: 16px;
+        text-align: justify;
     }
 }
 @media(max-width: 768px) {
@@ -656,6 +674,24 @@
     .page-about-top-title{
         text-shadow: #F7F2EA 1px 0 10px;
     }
+    .page-about__inner {
+        gap: 20px 0;
+        flex-direction: column;
+    }
+    .page-about__about-content{
+        order: -1;
+        max-width: 100%;
+    }
+    .page-about__about-content-title{
+        max-width: 100%;
+    }
+    .page-about__about-btn{
+        margin: 58px auto 0;
+    }
+    .page-about__about-img{
+        max-width: 75%;
+        margin: 0 auto;
+    }
 }
 @media (max-width: 680px) {
     .h3-title{
@@ -667,7 +703,8 @@
     .review,
     .offer,
     .banner,
-    .news{
+    .news,
+    .page-about__about{
         padding: 50px 0;
     }
     .promo-1,
@@ -769,7 +806,8 @@
     .review,
     .offer,
     .banner,
-    .news{
+    .news,
+    .page-about__about{
         padding: 40px 0;
     }
     .promo__inner{
@@ -812,6 +850,19 @@
     }
     .page-about-top{
         min-height: 380px;
+    }
+    .page-about__about-content-box{
+        flex-direction: column;
+        margin: 40px auto 0;
+        gap: 25px 0;
+    }
+    .about-content-item-text{
+        display: flex;
+        align-items: center;
+        max-width: 100%;
+    }
+    .page-about__about-btn{
+        margin-top: 30px;
     }
 }
 @media (max-width: 400px) {
@@ -866,6 +917,9 @@
     }
     .news-box__btn-text{
         font-size: 16px;
+    }
+    .about-content-item-text {
+        max-width: 160px;
     }
 }
 @media(max-width: 320px) {
