@@ -33,7 +33,7 @@
                 </div>
               </div>
             </section>
-            <section class="promo">
+            <section class="promo section-padding">
               <div class="container">
                 <div class="promo__inner">
                   <div class="promo-1">
@@ -48,7 +48,7 @@
                 </div>
               </div>
             </section>
-            <section class="about">
+            <section class="about section-padding">
               <div class="container">
                 <div class="about__inner">
                   <div class="about__img">
@@ -84,7 +84,7 @@
                 </div>
               </div>
             </section>
-            <section class="products">
+            <section class="products section-padding">
               <div class="container">
                 <div class="products__inner">
                   <p class="products__pretitle pretitle">Categories</p>
@@ -186,7 +186,7 @@
                 </div>
               </div>
             </section>
-            <section class="review">
+            <section class="review section-padding">
               <div class="container">
                 <div class="review__inner">
                   <p class="review__pretitle pretitle">Testimonial</p>
@@ -255,7 +255,7 @@
                 </div>
               </div>
             </section>
-            <section class="offer">
+            <section class="offer section-padding">
               <div class="container">
                 <div class="offer__inner">
                   <div class="offer__top">
@@ -341,7 +341,7 @@
                 </div>
               </div>
             </section>
-            <section class="banner">
+            <section class="banner section-padding">
               <div class="banner__inner">
                 <div class="banner__item-1">
                   <a class="banner__btn" href="#">Organic Juice</a>
@@ -354,7 +354,7 @@
                 </div>
               </div>
             </section>
-            <section class="news">
+            <section class="news section-padding">
               <div class="container">
                 <div class="news__inner">
                   <div class="news__top">

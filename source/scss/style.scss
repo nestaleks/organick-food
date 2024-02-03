@@ -1129,7 +1129,71 @@ button{
     color: #274C5B;
     background: #EFD372;
 }
-.apage-about__about-btn:active{
+.page-about__about-btn:active{
     color: #274C5B;
     background: #68A47F;
+}
+.page-about__choose{
+    padding: 190px 0;
+    background: rgb(249, 248, 248);
+}
+.page-about__choose__inner {
+}
+.page-about__choose-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+.page-about__choose-top-content {
+}
+.page-about__choose-pretitle {
+    margin-bottom: 6px;
+}
+.page-about__choose-title {
+    max-width: 524px;
+    margin-bottom: 25px;
+}
+.page-about__choose-text {
+    max-width: 671px;
+    margin-bottom: 36px;
+}
+.choose__points-item + .choose__points-item{
+    margin-top: 24px;
+}
+.choose__points {
+    display: flex;
+    border-radius: 49px;
+    background-color: #ECECEC;
+    padding: 29px 91px 29px 27px;
+    width: 339px;
+    margin-bottom: 12px;
+}
+.choose__points-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.choose__points-img{
+    margin-right: 6px;
+}
+.choose__points-text {
+    margin-left: 60px;
+    max-width: 444px;
+    line-height: 165.4%;
+}
+.page-about__choose-top-img {
+    border-radius: 30px;
+}
+.page-about__choose-bottom {
+}
+.page-about__choose-list {
+    display: flex;
+}
+.page-about__choose-item {
+}
+.choose-item-img {
+}
+.choose-item-title {
+}
+.choose-item-text {
 }
