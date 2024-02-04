@@ -89,22 +89,22 @@
                                 <li class="page-about__choose-item">
                                     <img class="choose-item-img" src="./images/choose-1.svg" alt="choose">
                                     <h6 class="choose-item-title h6-title">Return Policy</h6>
-                                    <p class="choose-item-text">Simply dummy text of the printintypesetting industry.</p>
+                                    <p class="choose-item-text">Easy returns, within 30 days, for a full refund.</p>
                                 </li>
                                 <li class="page-about__choose-item">
                                     <img class="choose-item-img" src="./images/choose-2.svg" alt="choose">
                                     <h6 class="choose-item-title h6-title">100% Fresh</h6>
-                                    <p class="choose-item-text">Simply dummy text of the printintypesetting industry.</p>
+                                    <p class="choose-item-text">Guaranteed 100% freshness – quality you can taste every time</p>
                                 </li>
                                 <li class="page-about__choose-item">
                                     <img class="choose-item-img" src="./images/choose-3.svg" alt="choose">
                                     <h6 class="choose-item-title h6-title">Support 24/7</h6>
-                                    <p class="choose-item-text">Simply dummy text of the printintypesetting industry.</p>
+                                    <p class="choose-item-text">24/7 support: We're here for you anytime you need assistance.</p>
                                 </li>
                                 <li class="page-about__choose-item">
                                     <img class="choose-item-img" src="./images/choose-4.svg" alt="choose">
                                     <h6 class="choose-item-title h6-title">Secured Payment</h6>
-                                    <p class="choose-item-text">Simply dummy text of the printintypesetting industry.</p>
+                                    <p class="choose-item-text">Your transactions protected for worry-free online shopping.</p>
                                 </li>
                             </ul>
                         </div>
