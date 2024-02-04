@@ -84,6 +84,9 @@
     .page-about__about-img{
         max-width: 600px;
     }
+    .page-about__choose-top-img{
+        max-width: 600px;
+    }
 }
 @media(max-width: 1280px) {
     .h2-title{
@@ -251,7 +254,8 @@
     .about-content-item-text{
         font-size: 18px;
     }
-    .page-about__about-img{
+    .page-about__about-img,
+    .page-about__choose-top-img{
         max-width: 450px;
     }
     .about-content-item-text{
