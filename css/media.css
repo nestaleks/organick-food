@@ -329,6 +329,13 @@
         max-width: 330px;
         line-height: normal;
     }
+    .page-about__choose-title{
+        max-width: 340px;
+        line-height: normal;
+    }
+    .choose__points-text{
+        margin-left: 0;
+    }
 }
 @media(max-width: 900px) {
     .h2-title{
@@ -474,6 +481,9 @@
     .page-about__about-content-text{
         font-size: 16px;
         text-align: justify;
+    }
+    .page-about__choose-top-img{
+        max-width: 340px;
     }
 }
 @media(max-width: 768px) {
@@ -669,6 +679,18 @@
         max-width: 75%;
         margin: 0 auto;
     }
+    .page-about__choose-top{
+        flex-direction: column;
+    }
+    .page-about__choose-title,
+    .page-about__choose-text,
+    .choose__points-text {
+        max-width: 100%;
+    }
+    .page-about__choose-top-img{
+        max-width: 75%;
+        margin: 0 auto;
+    }
 }
 @media (max-width: 680px) {
     .h3-title{
@@ -730,6 +752,9 @@
     .news__box{
         margin-left: auto;
     }
+    .page-about__choose-item {
+        width: 235px;
+    }
 }
 @media (max-width: 570px) {
     .review__text{
@@ -753,6 +778,15 @@
         height: 80px;
         margin-bottom: 15px;
         padding: 15px;
+    }
+    .page-about__choose-item {
+        width: 200px;
+        height: 280px;
+        padding: 25px 15px 15px;
+    }
+    .choose-item-text {
+        line-height: normal;
+        font-size: 16px;
     }
 }
 @media (max-width: 480px) {
@@ -827,11 +861,30 @@
     .page-about__about-btn{
         margin-top: 30px;
     }
+    .page-about__choose-top{
+        margin-bottom: 40px;
+    }
+    .page-about__choose-text,
+    .choose__points-text{
+        text-align: justify;
+    }
+    .page-about__choose-list{
+        gap: 15px;
+    }
+    .page-about__choose-item {
+        width: 170px;
+    }
 }
 @media (max-width: 400px) {
     .products__item{
         padding: 12px 12px 8px 12px;
     }
+    .page-about__choose-item {
+        width: 100%;
+        height: 246px;
+        padding: 20px;
+    }
+    
 }
 @media (max-width: 360px) {
     .h2-title{

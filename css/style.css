@@ -1410,7 +1410,7 @@ button {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 90px;
-  gap: 0 50px; }
+  gap: 50px; }
 
 .page-about__choose-pretitle {
   margin-bottom: 6px; }
@@ -1421,7 +1421,8 @@ button {
 
 .page-about__choose-text {
   max-width: 671px;
-  margin-bottom: 36px; }
+  margin-bottom: 36px;
+  line-height: 165.4%; }
 
 .choose__points-item + .choose__points-item {
   margin-top: 24px; }
@@ -1466,7 +1467,7 @@ button {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 0 30px; }
+  gap: 30px; }
 
 .page-about__choose-item {
   background-color: #FFFFFF;

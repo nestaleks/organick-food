@@ -1138,12 +1138,13 @@ button{
     background: rgb(249, 248, 248);
 }
 .page-about__choose__inner {
+
 }
 .page-about__choose-top {
     display: flex;
     justify-content: space-between;
     margin-bottom: 90px;
-    gap: 0 50px;
+    gap: 50px;
 }
 .page-about__choose-top-content {
     
@@ -1158,6 +1159,7 @@ button{
 .page-about__choose-text {
     max-width: 671px;
     margin-bottom: 36px;
+    line-height: 165.4%;
 }
 .choose__points-item + .choose__points-item{
     margin-top: 24px;
@@ -1196,7 +1198,7 @@ button{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 0 30px;
+    gap: 30px;
     
 }
 .page-about__choose-item {
