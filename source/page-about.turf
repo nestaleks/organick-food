@@ -111,7 +111,50 @@
                     </div>
                 </div>
             </section>
-
+            <section class="page-about__team section-padding">
+                <div class="container">
+                    <p class="page-about__team-pretitle pretitle">Team</p>
+                    <h2 class="page-about__team-title h2-title">Our Organic Experts</h2>
+                    <p class="page-about__team-text">Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+                    <ul class="page-about__team-list">
+                        <li class="page-about__team-item">
+                            <img class="page-about__team-item-img" src="./images/team-1.jpeg" alt="">
+                            <h6 class="page-about__team-item-title h6-title">Giovani Bacardo</h6>
+                            <div class="page-about__team-item-info">
+                                <p class="page-about__team-item-prof">Farmer</p>
+                                <div class="page-about__team-item-social">
+                                    <img class="page-about__team-item-icons" src="./images/facebook-min.svg" alt="">
+                                    <img class="page-about__team-item-icons" src="./images/twitter-min.svg" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="page-about__team-item">
+                            <img class="page-about__team-item-img" src="./images/team-2.jpeg" alt="">
+                            <h6 class="page-about__team-item-title h6-title">Marianne Loreno</h6>
+                            <div class="page-about__team-item-info">
+                                <p class="page-about__team-item-prof">Designer</p>
+                                <div class="page-about__team-item-social">
+                                    <img class="page-about__team-item-icons" src="./images/instagram-min.svg" alt="">
+                                    <img class="page-about__team-item-icons" src="./images/facebook-min.svg" alt="">
+                                    <img class="page-about__team-item-icons" src="./images/twitter-min.svg" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="page-about__team-item">
+                            <img class="page-about__team-item-img" src="./images/team-3.jpeg" alt="">
+                            <h6 class="page-about__team-item-title h6-title">Riga Pelore</h6>
+                            <div class="page-about__team-item-info">
+                                <p class="page-about__team-item-prof">Farmer</p>
+                                <div class="page-about__team-item-social">
+                                    <img class="page-about__team-item-icons" src="./images/instagram-min.svg" alt="">
+                                    <img class="page-about__team-item-icons" src="./images/facebook-min.svg" alt="">
+                                    <img class="page-about__team-item-icons" src="./images/twitter-min.svg" alt="">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
 
 
 
