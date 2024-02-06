@@ -155,6 +155,30 @@
                     </ul>
                 </div>
             </section>
+            <section class="page-about__offer section-padding">
+                <div class="container">
+                    <p class="page-about__offer-pretitle pretitle">About Us</p>
+                    <h2 class="page-about__offer-title h2-title">What We Offer for You</h2>
+                    <ul class="page-about__offer-items">
+                        <li class="page-about__offer-item">
+                            <img class="page-about__offer-img" src="./images/offer-1.jpg" alt="">
+                            <h6 class="page-about__offer-text h6-title">Spicy</h6>
+                        </li>
+                        <li class="page-about__offer-item">
+                            <img class="page-about__offer-img" src="./images/offer-2.jpg" alt="">
+                            <h6 class="page-about__offer-text h6-title">Nuts & Feeds</h6>
+                        </li>
+                        <li class="page-about__offer-item">
+                            <img class="page-about__offer-img" src="./images/offer-3.jpg" alt="">
+                            <h6 class="page-about__offer-text h6-title">Fruits</h6>
+                        </li>
+                        <li class="page-about__offer-item">
+                            <img class="page-about__offer-img" src="./images/offer-4.jpg" alt="">
+                            <h6 class="page-about__offer-text h6-title">Vegetable</h6>
+                        </li>
+                    </ul>
+                </div>
+            </section>
 
 
 

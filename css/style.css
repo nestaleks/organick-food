@@ -1099,7 +1099,8 @@ button {
   width: 349px;
   border-radius: 16px;
   border: none;
-  font-size: 18px; }
+  font-size: 18px;
+  padding: 0 23px; }
 
 .subscribe-email::-webkit-input-placeholder {
   padding: 28px 23px 31px;
@@ -1476,6 +1477,11 @@ button {
   height: 335px;
   padding: 50px 25px 19px; }
 
+.page-about__choose-item:hover {
+  -webkit-box-shadow: 0px 29px 44px 0px rgba(150, 150, 150, 0.25);
+          box-shadow: 0px 29px 44px 0px rgba(150, 150, 150, 0.25);
+  background: white; }
+
 .choose-item-img {
   display: block;
   margin: 0 auto;
@@ -1518,6 +1524,11 @@ button {
   background-color: #F9F8F8;
   border-radius: 30px; }
 
+.page-about__team-item:hover {
+  -webkit-box-shadow: 0px 29px 44px 0px rgba(150, 150, 150, 0.25);
+          box-shadow: 0px 29px 44px 0px rgba(150, 150, 150, 0.25);
+  background: white; }
+
 .page-about__team-item-img {
   border-radius: 30px 30px 0px 0px;
   margin-bottom: 35px;
@@ -1545,3 +1556,39 @@ button {
 
 .page-about__team-item-icons {
   margin-left: 17px; }
+
+.page-about__offer {
+  padding: 180px 0 180px;
+  background-color: #274C5B;
+  margin-bottom: 140px; }
+
+.page-about__offer-pretitle {
+  text-align: center;
+  margin-bottom: 8px; }
+
+.page-about__offer-title {
+  color: #FFFFFF;
+  margin-bottom: 33px;
+  text-align: center; }
+
+.page-about__offer-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 15px; }
+
+.page-about__offer-item {
+  max-width: 334px; }
+
+.page-about__offer-img {
+  max-width: 100%;
+  border-radius: 30px;
+  margin-bottom: 24px; }
+
+.page-about__offer-text {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif; }
