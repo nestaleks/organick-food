@@ -264,6 +264,9 @@
     .page-about__inner{
         gap: 0 20px;
     }
+    .page-about__team-item-title {
+        margin-bottom: 15px;
+    }
 }
 @media(max-width: 1024px) {
     .h1-title{
@@ -335,6 +338,12 @@
     }
     .choose__points-text{
         margin-left: 0;
+    }
+    .page-about__team-item-img {
+        margin-bottom: 20px;
+    }
+    .page-about__team-item-icons {
+        margin-left: 10px;
     }
 }
 @media(max-width: 900px) {
@@ -484,6 +493,15 @@
     }
     .page-about__choose-top-img{
         max-width: 340px;
+    }
+    .page-about__team-item-title {
+        margin-left: 20px;
+    }
+    .page-about__team-item-info {
+        margin: 0 20px 20px;
+    }
+    .page-about__team-list{
+        gap: 10px;
     }
 }
 @media(max-width: 768px) {
@@ -691,6 +709,26 @@
         max-width: 75%;
         margin: 0 auto;
     }
+    .page-about__team-item-img {
+        margin-bottom: 10px;
+    }
+    .page-about__team-item-title {
+        text-align: center;
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+    .page-about__team-item-info {
+        flex-direction: column;
+        margin: 0 20px 20px;
+    }
+    .page-about__team-item-prof{
+        text-align: center;
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+    .page-about__team-item-social{
+        margin: 0 auto;
+    }
 }
 @media (max-width: 680px) {
     .h3-title{
@@ -788,6 +826,10 @@
         line-height: normal;
         font-size: 16px;
     }
+    .page-about__team-item-icons{
+        width: 15px;
+        height: 15px;
+    }
 }
 @media (max-width: 480px) {
     .h1-title{
@@ -873,6 +915,23 @@
     }
     .page-about__choose-item {
         width: 170px;
+    }
+    .page-about__team-list{
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+    .page-about__team-item-title {
+        font-size: 25px;
+        margin-bottom: 2px;
+    }
+    .page-about__team-item-info {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto 20px;
+    }
+    .page-about__team-item-icons {
+        width: 25px;
+        height: 25px;
     }
 }
 @media (max-width: 400px) {
