@@ -21,6 +21,332 @@
 
         <!-- ОСНОВНАЯ ЧАСТЬ СТРАНИЦЫ -->
         <main class="main">
+            <section class="page-shop__top">
+                <div class="container">
+                    <h1 class="page-shop__top-title h1-title">Shop</h1>
+                </div>
+            </section>
+            <section class="page-shop__products section-padding">
+                <div class="container">
+                    <div class="page-shop__products-inner">
+                        <ul class="page-shop__products__items">
+                            <li class="products__item">
+                                <a class="products__item-link" href="#">
+                                    <p><span class="products__item-filter">Vegetable</span></p>
+                                    <img class="products__item-img" src="./images/products/broccoli.png" alt="">
+                                    <p class="products__item-title">Calabrese Broccoli</p>
+                                    <div class="products__item-prices">
+                                        <p class="products__item-price"><span>$ 20.00</span> $ 13.00</p>
+                                        <img class="products__item-stars" src="./images/stars.svg" alt="stars">
+                                    </div>
+                              </a>
+                            </li>
+                            <li class="products__item">
+                                <a class="products__item-link" href="#">
+                                    <p><span class="products__item-filter">Fresh</span></p>
+                                    <img class="products__item-img" src="./images/products/bananas.png" alt="">
+                                    <p class="products__item-title">Fresh Banana</p>
+                                    <div class="products__item-prices">
+                                        <p class="products__item-price"><span>$ 20.00</span> $ 14.00</p>
+                                        <img class="products__item-stars" src="./images/stars.svg" alt="stars">
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="products__item">
+                                <a class="products__item-link" href="#">
+                                    <p><span class="products__item-filter">Millets</span></p>
+                                    <img class="products__item-img" src="./images/products/white-nuts.png" alt="">
+                                    <p class="products__item-title">White Nuts</p>
+                                    <div class="products__item-prices">
+                                        <p class="products__item-price"><span>$ 20.00</span> $ 15.00</p>
+                                        <img class="products__item-stars" src="./images/stars.svg" alt="stars">
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="products__item">
+                                <a class="products__item-link" href="#">
+                                    <p><span class="products__item-filter">Vegetable</span></p>
+                                    <img class="products__item-img" src="./images/products/vegan-tomato.png" alt="">
+                                    <p class="products__item-title">Vegan Red Tomato</p>
+                                    <div class="products__item-prices">
+                                        <p class="products__item-price"><span>$ 20.00</span> $ 17.00</p>
+                                        <img class="products__item-stars" src="./images/stars.svg" alt="stars">
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="products__item">
+                                <a class="products__item-link" href="#">
+                                    <p><span class="products__item-filter">Health</span></p>
+                                    <img class="products__item-img" src="./images/products/mung-bean.png" alt="">
+                                    <p class="products__item-title">Mung Bean</p>
+                                    <div class="products__item-prices">
+                                        <p class="products__item-price"><span>$ 20.00</span> $ 11.00</p>
+                                        <img class="products__item-stars" src="./images/stars.svg" alt="stars">
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="products__item">
+                                <a class="products__item-link" href="#">
+                                    <p><span class="products__item-filter">Nuts</span></p>
+                                    <img class="products__item-img" src="./images/products/brown-hazelnut.png" alt="">
+                                    <p class="products__item-title">Brown Hazelnut</p>
+                                    <div class="products__item-prices">
+                                        <p class="products__item-price"><span>$ 20.00</span> $ 12.00</p>
+                                        <img class="products__item-stars" src="./images/stars.svg" alt="stars">
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="products__item">
+                                <a class="products__item-link" href="#">
+                                    <p><span class="products__item-filter">Fresh </span></p>
+                                    <img class="products__item-img" src="./images/products/eggs.png" alt="">
+                                    <p class="products__item-title">Eggs</p>
+                                    <div class="products__item-prices">
+                                        <p class="products__item-price"><span>$ 20.00</span> $ 17.00</p>
+                                        <img class="products__item-stars" src="./images/stars.svg" alt="stars">
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="products__item">
+                                <a class="products__item-link" href="#">
+                                    <p><span class="products__item-filter">Fresh</span></p>
+                                    <img class="products__item-img" src="./images/products/zelco-rush.png" alt="">
+                                    <p class="products__item-title">Suji Elaichi Rusk</p>
+                                    <div class="products__item-prices">
+                                        <p class="products__item-price"><span>$ 20.00</span> $ 15.00</p>
+                                        <img class="products__item-stars" src="./images/stars.svg" alt="stars">
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="products__item">
+                                <a class="products__item-link" href="#">
+                                    <p><span class="products__item-filter">Vegetable</span></p>
+                                    <img class="products__item-img" src="./images/products/broccoli-2.png" alt="">
+                                    <p class="products__item-title">Broccoli</p>
+                                    <div class="products__item-prices">
+                                        <p class="products__item-price"><span>$ 20.00</span> $ 11.00</p>
+                                        <img class="products__item-stars" src="./images/stars.svg" alt="stars">
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="products__item">
+                                <a class="products__item-link" href="#">
+                                    <p><span class="products__item-filter">Vegetable</span></p>
+                                    <img class="products__item-img" src="./images/products/zucchini.png" alt="">
+                                    <p class="products__item-title">Zucchini</p>
+                                    <div class="products__item-prices">
+                                        <p class="products__item-price"><span>$ 20.00</span> $ 12.00</p>
+                                        <img class="products__item-stars" src="./images/stars.svg" alt="stars">
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="products__item">
+                                <a class="products__item-link" href="#">
+                                    <p><span class="products__item-filter">Vegetable</span></p>
+                                    <img class="products__item-img" src="./images/products/onion.png" alt="">
+                                    <p class="products__item-title">Onion</p>
+                                    <div class="products__item-prices">
+                                        <p class="products__item-price"><span>$ 20.00</span> $ 17.00</p>
+                                        <img class="products__item-stars" src="./images/stars.svg" alt="stars">
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="products__item">
+                                <a class="products__item-link" href="#">
+                                    <p><span class="products__item-filter">Vegetable</span></p>
+                                    <img class="products__item-img" src="./images/products/cabbage.png" alt="">
+                                    <p class="products__item-title">Cabbage</p>
+                                    <div class="products__item-prices">
+                                        <p class="products__item-price"><span>$ 20.00</span> $ 17.00</p>
+                                        <img class="products__item-stars" src="./images/stars.svg" alt="stars">
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="products__item">
+                                <a class="products__item-link" href="#">
+                                    <p><span class="products__item-filter">Fresh</span></p>
+                                    <img class="products__item-img" src="./images/products/lemons.png" alt="">
+                                    <p class="products__item-title">Lemons</p>
+                                    <div class="products__item-prices">
+                                        <p class="products__item-price"><span>$ 16.00</span> $ 12.00</p>
+                                        <img class="products__item-stars" src="./images/stars.svg" alt="stars">
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="products__item">
+                                <a class="products__item-link" href="#">
+                                    <p><span class="products__item-filter">Spices</span></p>
+                                    <img class="products__item-img" src="./images/products/cinnamon.png" alt="">
+                                    <p class="products__item-title">Cinnamon</p>
+                                    <div class="products__item-prices">
+                                        <p class="products__item-price"><span>$ 25.00</span> $ 19.00</p>
+                                        <img class="products__item-stars" src="./images/stars.svg" alt="stars">
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="products__item">
+                                <a class="products__item-link" href="#">
+                                    <p><span class="products__item-filter">Health</span></p>
+                                    <img class="products__item-img" src="./images/products/avocado.png" alt="">
+                                    <p class="products__item-title">Avocado</p>
+                                    <div class="products__item-prices">
+                                        <p class="products__item-price"><span>$ 20.00</span> $ 17.00</p>
+                                        <img class="products__item-stars" src="./images/stars.svg" alt="stars">
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="products__item">
+                                <a class="products__item-link" href="#">
+                                    <p><span class="products__item-filter">Vegetable</span></p>
+                                    <img class="products__item-img" src="./images/products/pepper.png" alt="">
+                                    <p class="products__item-title">Pepper</p>
+                                    <div class="products__item-prices">
+                                        <p class="products__item-price"><span>$ 17.00</span> $ 14.00</p>
+                                        <img class="products__item-stars" src="./images/stars.svg" alt="stars">
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="products__item">
+                                <a class="products__item-link" href="#">
+                                    <p><span class="products__item-filter">Fruits</span></p>
+                                    <img class="products__item-img" src="./images/products/green-apple.png" alt="">
+                                    <p class="products__item-title">Green apples</p>
+                                    <div class="products__item-prices">
+                                        <p class="products__item-price"><span>$ 16.00</span> $ 12.00</p>
+                                        <img class="products__item-stars" src="./images/stars.svg" alt="stars">
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="products__item">
+                                <a class="products__item-link" href="#">
+                                    <p><span class="products__item-filter">Vegetables</span></p>
+                                    <img class="products__item-img" src="./images/products/red-beet.png" alt="">
+                                    <p class="products__item-title">Red Beet</p>
+                                    <div class="products__item-prices">
+                                        <p class="products__item-price"><span>$ 25.00</span> $ 19.00</p>
+                                        <img class="products__item-stars" src="./images/stars.svg" alt="stars">
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="products__item">
+                                <a class="products__item-link" href="#">
+                                    <p><span class="products__item-filter">Vegetables</span></p>
+                                    <img class="products__item-img" src="./images/products/carrot.png" alt="">
+                                    <p class="products__item-title">Carrot</p>
+                                    <div class="products__item-prices">
+                                        <p class="products__item-price"><span>$ 20.00</span> $ 17.00</p>
+                                        <img class="products__item-stars" src="./images/stars.svg" alt="stars">
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="products__item">
+                                <a class="products__item-link" href="#">
+                                    <p><span class="products__item-filter">Spices</span></p>
+                                    <img class="products__item-img" src="./images/products/bay-leaf.png" alt="">
+                                    <p class="products__item-title">Bay Leaf</p>
+                                    <div class="products__item-prices">
+                                        <p class="products__item-price"><span>$ 17.00</span> $ 14.00</p>
+                                        <img class="products__item-stars" src="./images/stars.svg" alt="stars">
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="products__item">
+                                <a class="products__item-link" href="#">
+                                    <p><span class="products__item-filter">Vegetables</span></p>
+                                    <img class="products__item-img" src="./images/products/cucumber.png" alt="">
+                                    <p class="products__item-title">Cucumber</p>
+                                    <div class="products__item-prices">
+                                        <p class="products__item-price"><span>$ 16.00</span> $ 12.00</p>
+                                        <img class="products__item-stars" src="./images/stars.svg" alt="stars">
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="products__item">
+                                <a class="products__item-link" href="#">
+                                    <p><span class="products__item-filter">Spices</span></p>
+                                    <img class="products__item-img" src="./images/products/paprika.png" alt="">
+                                    <p class="products__item-title">Paprika</p>
+                                    <div class="products__item-prices">
+                                        <p class="products__item-price"><span>$ 25.00</span> $ 19.00</p>
+                                        <img class="products__item-stars" src="./images/stars.svg" alt="stars">
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="products__item">
+                                <a class="products__item-link" href="#">
+                                    <p><span class="products__item-filter">Health</span></p>
+                                    <img class="products__item-img" src="./images/products/red-beans.png" alt="">
+                                    <p class="products__item-title">Red Beans</p>
+                                    <div class="products__item-prices">
+                                        <p class="products__item-price"><span>$ 20.00</span> $ 17.00</p>
+                                        <img class="products__item-stars" src="./images/stars.svg" alt="stars">
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="products__item">
+                                <a class="products__item-link" href="#">
+                                    <p><span class="products__item-filter">Spices</span></p>
+                                    <img class="products__item-img" src="./images/products/ginger.png" alt="">
+                                    <p class="products__item-title">Ginger</p>
+                                    <div class="products__item-prices">
+                                        <p class="products__item-price"><span>$ 17.00</span> $ 14.00</p>
+                                        <img class="products__item-stars" src="./images/stars.svg" alt="stars">
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="products__item">
+                                <a class="products__item-link" href="#">
+                                    <p><span class="products__item-filter">Vegetables</span></p>
+                                    <img class="products__item-img" src="./images/products/daikon.png" alt="">
+                                    <p class="products__item-title">Daikon</p>
+                                    <div class="products__item-prices">
+                                        <p class="products__item-price"><span>$ 16.00</span> $ 12.00</p>
+                                        <img class="products__item-stars" src="./images/stars.svg" alt="stars">
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="products__item">
+                                <a class="products__item-link" href="#">
+                                    <p><span class="products__item-filter">Nuts</span></p>
+                                    <img class="products__item-img" src="./images/products/greek-hazelnut.png" alt="">
+                                    <p class="products__item-title">Greek Hazelnut</p>
+                                    <div class="products__item-prices">
+                                        <p class="products__item-price"><span>$ 25.00</span> $ 19.00</p>
+                                        <img class="products__item-stars" src="./images/stars.svg" alt="stars">
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="products__item">
+                                <a class="products__item-link" href="#">
+                                    <p><span class="products__item-filter">Fruits</span></p>
+                                    <img class="products__item-img" src="./images/products/orange.png" alt="">
+                                    <p class="products__item-title">Orange</p>
+                                    <div class="products__item-prices">
+                                        <p class="products__item-price"><span>$ 20.00</span> $ 17.00</p>
+                                        <img class="products__item-stars" src="./images/stars.svg" alt="stars">
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="products__item">
+                                <a class="products__item-link" href="#">
+                                    <p><span class="products__item-filter">Fruits</span></p>
+                                    <img class="products__item-img" src="./images/products/red-apple.png" alt="">
+                                    <p class="products__item-title">Red Apples</p>
+                                    <div class="products__item-prices">
+                                        <p class="products__item-price"><span>$ 17.00</span> $ 14.00</p>
+                                        <img class="products__item-stars" src="./images/stars.svg" alt="stars">
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
             <!-- ИМПОРТ РАЗДЕЛА SUBSCRIBE -->
             <!-- @import "subscribe.html" -->
         </main>

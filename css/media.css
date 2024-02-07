@@ -351,6 +351,11 @@
     .page-about__team-item-icons {
         margin-left: 10px;
     }
+    .page-about__top,
+    .page-shop__top{
+        background-position-x: 50%;
+        min-height: 300px;
+    }
 }
 @media(max-width: 900px) {
     .h2-title{
@@ -807,6 +812,15 @@
     }
     .page-about__offer {
         margin-bottom: 40px;
+    }
+    .page-about__top{
+        background-position-x: 64%;
+        min-height: 280px;
+    }
+
+    .page-shop__top{
+        background-position-x: 84%;
+        min-height: 280px;
     }
 }
 @media (max-width: 570px) {
