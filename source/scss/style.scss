@@ -1333,10 +1333,48 @@ button{
 .page-shop__products{
     padding: 100px 0 140px;
 }
+.products__category-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    gap: 30px;
+}
+.products__category-item {
+    cursor: pointer;
+    display: inline-block;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px 12px 6px 12px;
+    border-radius: 8px;
+    background: #274C5B;
+    float: left;
+}
+.products__category-item:hover{
+    background: #557581;
+}
+.products__category-item + .active{
+    // color: #274C5B;
+    background-color: #68A47F;
+}
 .page-shop__products__items{
     display: flex;
     flex-wrap: wrap;
     position: relative;
     justify-content: center;
     gap: 20px;
+}
+.products__item.show{
+	animation: fadeIn 0.5s ease;
+}
+@keyframes fadeIn{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.products__item.hide{
+	display: none;
 }
