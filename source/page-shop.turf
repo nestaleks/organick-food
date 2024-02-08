@@ -30,7 +30,7 @@
                 <div class="container">
                     <div class="page-shop__products-inner">
                         <div class="products__category-list">
-                            <span class="products__category-item active" data-filter="all">ALL</span>
+                            <span class="products__category-item active" data-filter="all">All</span>
                             <span class="products__category-item" data-filter="vegetable">Vegetable</span>
                             <span class="products__category-item" data-filter="fruits">Fruits</span>
                             <span class="products__category-item" data-filter="nuts">Nuts</span>

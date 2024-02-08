@@ -973,9 +973,12 @@ button {
 
 .news__item-1,
 .news__item-2 {
-  width: 677px;
-  height: 524px;
-  border-radius: 30px; }
+  max-width: 677px;
+  max-height: 524px;
+  border-radius: 30px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain; }
 
 .news__item-1 {
   position: relative;
@@ -1676,3 +1679,23 @@ button {
 
 .products__item.hide {
   display: none; }
+
+.page-news__top {
+  background-image: url(../images/page-news-bg.jpg);
+  background-repeat: no-repeat;
+  background-position-x: 84%;
+  background-size: cover;
+  min-height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center; }
+
+.page-news__news {
+  padding: 120px 0 120px; }
